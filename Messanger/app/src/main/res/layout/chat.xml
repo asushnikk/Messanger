@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#999999" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:id="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType=""></EditText>
+
+        <Button
+            android:id="@+id/sendm"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:onClick="sending"
+            android:text="@string/buttonsendinchat" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+</RelativeLayout>

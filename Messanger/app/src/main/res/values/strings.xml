@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Messanger</string>
+    <string name="buttonstart">Начать пользоваться</string>
+    <string name="buttonabout">О приложении</string>
+    <string name="labelstart">Вас приветствует Messanger!</string>
+    <string name="textview">Практика: приложения для отправки моментальных сообщений клиентами, использующее сервер</string>
+    <string name="selectcontact">Выбрать контакт</string>
+    <string name="contacts_image">Contacts Image</string>
+    <string name="buttonsendmessage">Послать сообщение</string>
+    <string name="sendmessageinchat"><![CDATA[>]]></string>
+    <string name="sendsk"><![CDATA[>]]></string>
+    <string name="btnsend">Послать сообщение</string>
+    <string name="textviewname">TextView</string>
+    <string name="textviewphone">TextView</string>
+    <string name="textviewinputlogin">Введите свой логин (номер телефона)</string>
+    <string name="_79123456789">Формат ввода: +79123456789</string>
+    <string name="buttonsendinchat"><![CDATA[>]]></string>
+
+</resources>
